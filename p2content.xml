@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='201209260942.lunifera-IDE-setup' version='1.0.0.0-1cM0w85773573K7E3KA7'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Lunifera IDE Setup helper'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201209260942.lunifera-IDE-setup' version='1.0.0.0-1cM0w85773573K7E3KA7'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.ide.setuphelper.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+  <unit id='201209260942.lunifera-features' version='1.0.0.0-7AcM0yUs7kMYkO1lTO26k'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Lunifera Modeling Tools'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201209260942.lunifera-features' version='1.0.0.0-7AcM0yUs7kMYkO1lTO26k'/>
+    </provides>
+    <requires size='6'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.modeling.business_knowledge.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.modeling.entities.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.ui.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.modeling.organization.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.modeling.components.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.lunifera.feature.eclipse.modeling.behavior_requirements.feature.group' range='[0.0.1.201209260942,0.0.1.201209260942]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
